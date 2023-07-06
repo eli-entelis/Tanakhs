@@ -72,7 +72,7 @@ export default function Comment({
   return (
     <Grid container style={{ marginTop: "0.5rem" }}>
       <Grid xs={0.5} style={{ marginTop: "0.5rem" }}>
-        <UserAvatar userName={comment.name} />
+        <UserAvatar userName={comment.author.name} />
       </Grid>
       <Grid xs={11.5}>
         <Paper elevation={3}>
